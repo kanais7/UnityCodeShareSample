@@ -1,4 +1,5 @@
 ﻿using System;
+using Shared;
 
 namespace CoreApp
 {
@@ -7,6 +8,7 @@ namespace CoreApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(SharedClass.GetText());
         }
     }
 }

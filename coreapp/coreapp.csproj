@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\unity\Assets\Scripts\Shared\**\*.cs" LinkBase="Shared" />
+  </ItemGroup>
+
 </Project>
