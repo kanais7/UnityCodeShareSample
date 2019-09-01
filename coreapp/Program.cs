@@ -9,6 +9,7 @@ namespace CoreApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(SharedClass.GetText());
+            SharedClass.DoSomething();
         }
     }
 }
