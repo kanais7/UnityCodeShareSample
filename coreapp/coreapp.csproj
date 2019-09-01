@@ -9,4 +9,8 @@
     <Compile Include="..\unity\Assets\Scripts\Shared\**\*.cs" LinkBase="Shared" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
 </Project>
