@@ -8,6 +8,7 @@ namespace UnityApp
         private void Start()
         {
             Debug.Log(SharedClass.GetText());
+            SharedClass.DoSomething();
         }
     }
 }
